@@ -9,7 +9,7 @@
 
 #===================================================================================
 									#host     user    password     database
-	$connection = mysqli_connect("sql2.njit.edu","mmd38","oXsWKSx7","mmd38");    
+	$connection = mysqli_connect("sql2.njit.edu","mmd38","pass","mmd38");    
       #$connection = mysqli_connect("localhost", "root" ,"password","mmd38");                                                                                
 /*    if (!mysql_select_db('usernames',$connection)){
       echo "\nCould not Select Database";
