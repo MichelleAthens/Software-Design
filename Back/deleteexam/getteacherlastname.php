@@ -8,7 +8,7 @@
 #+--------------+--------------------------------------------------------------+------------+------------+----------------
 
 	#$con = mysqli_connect("localhost","root","password","mmd38");    
-	$con = mysqli_connect("sql2.njit.edu","mmd38","oXsWKSx7","mmd38");
+	$con = mysqli_connect("sql2.njit.edu","mmd38","passwrd","mmd38");
 
 #	$username="prof1";
 	$result = mysqli_query($con,"SELECT * FROM teachers WHERE username like '$username'");

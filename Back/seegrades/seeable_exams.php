@@ -2,12 +2,12 @@
 
 
 #Get student name by username
-	//$con = mysqli_connect("sql2.njit.edu","mmd38","oXsWKSx7","mmd38");    
+	//$con = mysqli_connect("sql2.njit.edu","mmd38","passwrd","mmd38");
 	$array = array();
 	$studentlastname = "";
 	$studentid="";
 	#$connection = mysqli_connect("localhost","root","password","mmd38");   
-	$connection = mysqli_connect("sql2.njit.edu","mmd38","oXsWKSx7","mmd38"); 
+	$connection = mysqli_connect("sql2.njit.edu","mmd38","passwrd","mmd38");
     $response = file_get_contents('php://input');
     $array  = json_decode($response,true);         
 	

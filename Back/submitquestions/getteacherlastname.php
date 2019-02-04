@@ -7,8 +7,8 @@
 #| prof1          | 123																		   | teacher|  |Michelle   |  Dizon    |
 #+--------------+--------------------------------------------------------------+------------+------------+----------------
 
-	#$con= mysqli_connect("sql2.njit.edu","mmd38","oXsWKSx7","mmd38");    
-	$con = mysqli_connect("sql2.njit.edu","mmd38","oXsWKSx7","usernames");
+	#$con= mysqli_connect("sql2.njit.edu","mmd38","passwrd","mmd38");
+	$con = mysqli_connect("sql2.njit.edu","mmd38","passwrd","usernames");
 
 	$result = mysqli_query($con,"SELECT * FROM teachers WHERE username like '$username'");
 	$row = mysqli_fetch_assoc($result);
